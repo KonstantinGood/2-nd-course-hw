@@ -133,4 +133,61 @@ body, button {
 .span {
   padding-left: 32px;
   padding-bottom: 32px;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000915 100%), url(img/header_mobile.jpg), lightgray -240.259px 0px/294% 100% no-repeat;
+    width: 375px;
+    height: 735px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header__title {
+    text-align: center;
+    font-size: 32px;
+    width: 343px;
+    height: 77.436px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 33px;
+  }
+  .header__button {
+    margin-left: 70px;
+    margin-bottom: 239px;
+  }
+  .for {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 128px;
+    padding-bottom: 128px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 128px;
+  }
+  .for__item {
+    grid-column: span 4;
+    width: 343px;
+    height: 300px;
+  }
+  .heading {
+    width: 375px;
+    height: 1221px;
+  }
 }/*# sourceMappingURL=style.css.map */
