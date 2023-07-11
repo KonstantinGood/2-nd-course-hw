@@ -56,6 +56,10 @@ body, button {
   margin-right: 1085.94px;
   margin-bottom: 493.29px;
 }
+.header__button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #ccc;
+}
 
 .heading {
   background: #000915;
@@ -71,6 +75,10 @@ body, button {
   padding-bottom: 128px;
   margin-left: 120px;
   margin-right: 120px;
+}
+.for__item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 5px #ccc;
 }
 .for__item_1 {
   border-radius: 16px;
