@@ -162,4 +162,69 @@ body, button {
 }
 
 
+.game {
+    width: 1440px;
+    height: 800px;
+    background: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &__img {
+        padding-top: 233px;
+        
+        
+    }
+
+    &__img_mob {
+        display: none;
+    }
+
+    &_season {
+        padding-top: 282px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    
+        &__heading {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    
+        &__text {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px;
+            width: 584px;
+        }
+    
+        &__button {
+            width: 234.063px;
+            height: 48.603px;
+            border-radius: 30px;
+            background: #9C0332;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+    
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 5px #ccc;
+            }
+        }
+    }
+}
+
+
+
 @import 'mobile';
