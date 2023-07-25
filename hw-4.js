@@ -43,7 +43,18 @@ console.log("Итераций: " + s +", получилось число " + a);
 
 //Задание 6
 
-for (let fridey = 7; fridey <=31; fridey = fridey+7) {
-  console.log (`Сугодня пятница ${fridey}-е число. Необходимо подготовить отчет.`)
-}
+//for (let fridey = 7; fridey <=31; fridey = fridey+7) {
+//  console.log (`Сугодня пятница ${fridey}-е число. Необходимо подготовить отчет.`)
+//}
+
+//Задание 6
+let dey = Number(prompt(`какая дата у пятницы?`));
+
+let fridey = dey;
+do {
+  console.log (`Сегодня пятница ${fridey}-е число. Необходимо подготовить отчет.`);
+  fridey = fridey+7;
+  fridey++;
+} while (fridey <=31);
+
                   
