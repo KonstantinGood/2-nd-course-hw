@@ -153,6 +153,10 @@ body, button {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.game_two {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .game__img {
   padding-top: 233px;
 }

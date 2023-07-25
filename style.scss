@@ -170,6 +170,12 @@ body, button {
     flex-wrap: wrap;
     justify-content: space-around;
 
+    &_two {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
     &__img {
         padding-top: 233px;
         
