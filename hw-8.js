@@ -20,38 +20,42 @@ const peoples = [
 
  // Задание 2
 
- //function isPositive(number) {
-    //return number > 0;
- //}
+ function isPositive(el) {
+    if (el > 0) {
+      return el;
+    };
+ };
 
- //function isMale(person) {
-    //return person.gender === 'male';
- //}
+ function isMale(el) {
+    if (el.gender === 'male') {
+      return el;
+    };
+ }
 
- //function filter(arr, rule) {
-    //const result = [];
-    //for (let i = 0; i < arr.length; i++) {
-        
-   //     result.push(rule(arr[i]));
+ function filter(arr, ruleFunction) {
+    const ounput = [];
+    for (let i = 0; i < arr.length; i++) {
+       if (ruleFunction(arr[i]));
+       output.push ((ruleFunction(arr[i])));
 
-    //}
-   // return result;
-// }
- //console.log(filter([3, -4, 1, 9]), isPositive);
- //const people = [
-  //  {name: 'Глеб', gender: 'male'},
-   // {name: 'Анна', gender: 'female'},
-   // {name: 'Олег', gender: 'male'},
-   // {name: 'Оксана', gender: 'female'}
-// ];
+    }
+    return output;
+ }
+ console.log(filter([3, -4, 1, 9]), isPositive);
+ const people2 = [
+    {name: 'Глеб', gender: 'male'},
+    {name: 'Анна', gender: 'female'},
+    {name: 'Олег', gender: 'male'},
+    {name: 'Оксана', gender: 'female'}
+];
  
- //console.log(filter(people, isMale)); 
+ console.log(filter(people2, isMale)); 
 
   // Задание 3
 
   let timerId = setInterval(() => console.log(new Date), 3000);
 
-  setTimeout(() => { clearInterval(timerId); }, 30000);
+  setTimeout(() => { clearInterval(timerId); console.log(`30 секунд прошло`) }, 1000 * 30);
 
   // Задание 4
 
